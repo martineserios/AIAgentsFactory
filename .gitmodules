@@ -1,0 +1,9 @@
+[submodule "experiments/ai_agents_test/alloy-voice-assistant"]
+	path = experiments/ai_agents_test/alloy-voice-assistant
+	url = https://github.com/svpino/alloy-voice-assistant
+[submodule "experiments/ai_agents_test/llm"]
+	path = experiments/ai_agents_test/llm
+	url = https://github.com/svpino/llm
+[submodule "experiments/ai_agents_test/youtube-rag"]
+	path = experiments/ai_agents_test/youtube-rag
+	url = https://github.com/svpino/youtube-rag

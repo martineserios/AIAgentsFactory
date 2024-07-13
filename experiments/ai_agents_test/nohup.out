@@ -1,0 +1,91 @@
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: kernel kernelspec migrate run troubleshoot
+
+Jupyter command `jupyter-lab` not found.
+[I 17:36:13.773 LabApp] Writing notebook server cookie secret to /home/martin/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 17:36:13.942 LabApp] JupyterLab extension loaded from /home/martin/Projects/ongoing/ai_agents_factory/.venv/lib/python3.10/site-packages/jupyterlab
+[I 17:36:13.942 LabApp] JupyterLab application directory is /home/martin/Projects/ongoing/ai_agents_factory/.venv/share/jupyter/lab
+[I 17:36:13.946 LabApp] Serving notebooks from local directory: /home/martin/Projects/ongoing/ai_agents_factory
+[I 17:36:13.946 LabApp] Jupyter Notebook 6.5.7 is running at:
+[I 17:36:13.946 LabApp] http://martineserios:8888/?token=6e0efd0e4c6054f254774c42b9f07d1484355adb92a6c340
+[I 17:36:13.946 LabApp]  or http://127.0.0.1:8888/?token=6e0efd0e4c6054f254774c42b9f07d1484355adb92a6c340
+[I 17:36:13.946 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:36:13.962 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/martin/.local/share/jupyter/runtime/nbserver-221618-open.html
+    Or copy and paste one of these URLs:
+        http://martineserios:8888/?token=6e0efd0e4c6054f254774c42b9f07d1484355adb92a6c340
+     or http://127.0.0.1:8888/?token=6e0efd0e4c6054f254774c42b9f07d1484355adb92a6c340
+/snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
+Failed to load module: /home/martin/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+https://app.tana.inc
+Starting against https://app.tana.inc
+/snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
+Failed to load module: /home/martin/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+Warning: terminator_CreateInstance: Failed to CreateInstance in ICD 2.  Skipping ICD.
+Checking for updates
+[221817:0625/180907.730553:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[221817:0625/225512.261521:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[221817:0625/225512.262336:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+Checking for updates
+[C 12:13:00.886 LabApp] received signal 15, stopping
+[I 12:13:01.019 LabApp] Shutting down 0 kernels
+[I 12:13:01.020 LabApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
