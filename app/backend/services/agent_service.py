@@ -1,4 +1,5 @@
 from ai_agents.orchestrator import Orchestrator
+
 from app.backend.core.logger import logger
 from app.backend.models.pydantic_models import (DiscussionResponse,
                                                 KnowledgeUpdateResponse,
@@ -18,7 +19,7 @@ class AgentService:
                 agent_responses=[
                     {"agent_name": k, "response": v}
                     for k, v in result["agent_responses"].items()
-                ]
+                ] # type: ignore
             )
         except Exception as e:
             logger.error(f"Error processing request: {str(e)}")
@@ -33,7 +34,7 @@ class AgentService:
                 discussion=[
                     {"agent_name": list(item.keys())[0], "response": list(item.values())[0]}
                     for item in result["discussion"]
-                ]
+                ] # type: ignore
             )
         except Exception as e:
             logger.error(f"Error facilitating discussion: {str(e)}")

@@ -1,13 +1,15 @@
 from fastapi import FastAPI
 
-from ai_agents.expert_agents.software_engineer import SoftwareEngineerAgent
-from ai_agents.knowledge_base import KnowledgeBase
-from ai_agents.orchestrator import Orchestrator
-from ai_agents.rag import RAG
 from app.backend.api.routes import router
+from app.backend.core.config import settings
 from app.backend.core.logger import logger
+from app.backend.services.ai_agents.expert_agents.software_engineer import \
+    SoftwareEngineerAgent
+from app.backend.services.ai_agents.knowledge_base import KnowledgeBase
+from app.backend.services.ai_agents.orchestrator import Orchestrator
+from app.backend.services.ai_agents.rag import RAG
 
-app = FastAPI(title="AI Crew API")
+app = FastAPI(title= f"{settings.APP_NAME} API")
 
 # Initialize components
 knowledge_base = KnowledgeBase()
