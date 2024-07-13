@@ -1,4 +1,4 @@
-# AI Crew
+# AI Agents Factory
 
 A crew of AI agents wrapped in FastAPI, managed with Poetry.
 
