@@ -1,6 +1,6 @@
 # AI Agents Factory
 
-A crew of AI agents wrapped in FastAPI, managed with Poetry.
+A crew of AI agents wrapped in FastAPI. Poetry.
 
 ## Setup
 
